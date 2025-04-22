@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#333"
+    android:padding="32dp">
+
+    <View
+        android:id="@+id/redLight"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#444"
+        android:layout_margin="16dp"
+        android:layout_gravity="center" />
+
+    <View
+        android:id="@+id/yellowLight"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#444"
+        android:layout_margin="16dp"
+        android:layout_gravity="center" />
+
+    <View
+        android:id="@+id/greenLight"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#444"
+        android:layout_margin="16dp"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Далее"
+        android:layout_marginTop="32dp"
+        android:padding="16dp"
+        android:textSize="18sp"
+        android:backgroundTint="#6200EE"
+        android:textColor="#FFF"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
