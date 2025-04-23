@@ -1,0 +1,12 @@
+R_DEF: Internal format may change without notice
+local
+drawable ic_launcher_background
+drawable ic_launcher_round
+id button
+id greenLight
+id layout
+id redLight
+id yellowLight
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
